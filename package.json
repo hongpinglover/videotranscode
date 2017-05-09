@@ -1,0 +1,32 @@
+{
+  "name": "videotranscode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev_back": "node-dev --no-deps index_back.js",
+    "dev_front": "node-dev --no-deps index_front.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hongpinglover/videotranscode.git"
+  },
+  "author": "zhaohp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hongpinglover/videotranscode/issues"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.28.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-middleware": "^1.10.2",
+    "webpack-hot-middleware": "^2.18.0"
+  },
+  "homepage": "https://github.com/hongpinglover/videotranscode#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "ffmpeg": "0.0.4"
+  }
+}
